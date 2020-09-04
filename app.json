@@ -1,7 +1,7 @@
 {
-  "name": "Catuserbot",
-  "description": "Userbot created by a SNAPDRAGON and custom fork by https://t.me/mrconfused contact @catuserbot_support for support",
-  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
+  "name": "CrazyHacker",
+  "description": "CrazyHacker created by a PRAVEEN KAVINDU and custom fork by https://t.me/XCRAZYHACKERX7 contact @PRAVEEN_KAVINDU for support",
+  "logo": "https://telegra.ph/file/6d8b1d59937993fe10a04.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/sandy1709/catuserbot/",
+  "repository": "https://github.com/PraveenKavindu/CrazyHacker/",
   "website": "#TODO",
   "success_url": "#TODO",
   "stack": "container",
