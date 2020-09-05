@@ -107,26 +107,7 @@ async def on_afk(event):
         message_to_reply = f"__My Master Has Been In afk For__ `{total_afk_time}`\nWhere He Is: ONLY GOD KNOWS " + \
             f"\n\n__I promise He'll back in a few light years__\n**REASON**: {reason}" \
             if reason \
-            else f"**Hallo Sir!**\n__Welcome Sir This Is My Master
-@PRAVEEN_KAVINDU's Inbox
-
-..................................................................................
-       📛👻 HIGH SECURITY DEVICE 👻📛
-
-@PRAVEEN_KAVINDU මේ මොහොතේ Online නොමැත.😕
-
-👉👉👉⚠️  ඔහු මෙම ගිනුම මාස 3කට අත්හිටුවා ඇත. ⚠️👈👈👈
-
-ඔබට යම් උදව්වක් ලබා ගැනීමට අවශ්‍ය නම්
- @Gangster_gaiya වෙතට යොමු කර උදව් ලබා ගන්න.
-
-He is not online at 3 months ..🤗
-
-⚜️ Our channels -
-            ⭕️@edmgangx 
-            ⭕️@slpcgames
-            ⭕️@programminghackingebooks
-............................................................................."
+            else f"**Hallo Sir!**\n__Welcome Sir This Is My Master \n \n @PRAVEEN_KAVINDU's Inbox \n \n ..................................................................................\n 📛👻 HIGH SECURITY DEVICE 👻📛\n \n @PRAVEEN_KAVINDU මේ මොහොතේ Online නොමැත.😕\n \n 👉👉👉⚠️  ඔහු මෙම ගිනුම මාස 3කට අත්හිටුවා ඇත. ⚠️👈👈👈\n \n ඔබට යම් උදව්වක් ලබා ගැනීමට අවශ්‍ය නම් @Gangster_gaiya වෙතට යොමු කර උදව් ලබා ගන්න.\n \n He is not online at 3 months ..🤗\n \n ⚜️ Our channels -\n ⭕️@edmgangx \n ⭕️@slpcgames \n⭕️@programminghackingebooks\n \n............................................................................."
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in last_afk_message:  # pylint:disable=E0602
