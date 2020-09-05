@@ -13,7 +13,7 @@ async def _(event):
     event = await edit_or_reply(event ," ◦•●◉✿ Pong ✿◉●•◦")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit("Pong!\n`{}`".format(ms))
+    await event.edit("●◉✿ Pong ✿◉●\n`{}`".format(ms))
     
 @borg.on(admin_cmd(pattern=f"fping$", outgoing=True))
 async def _(event):
@@ -22,7 +22,7 @@ async def _(event):
     start = datetime.now()
     animation_interval = 0.2
     animation_ttl = range(0, 26)
-    await event.edit("ping....")
+    await event.edit("●◉✿ Pong ✿◉●")
     animation_chars = [
             "⬛⬛⬛⬛⬛⬛⬛⬛⬛",
             "⬛⬛⬛⬛⬛⬛⬛⬛⬛ \n⬛‎📶‎📶‎📶‎📶‎📶‎📶‎📶⬛",
