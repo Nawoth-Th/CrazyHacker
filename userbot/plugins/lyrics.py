@@ -15,7 +15,7 @@ GENIUS = os.environ.get("GENIUS_API_TOKEN", None)
 
 @borg.on(admin_cmd(outgoing=True, pattern="lyrics ?(.*)"))
 async def _(event):
-    await event.edit("wi8..! I am searching your lyrics....`")
+    await event.edit("Wait Crazy, I am searching your lyrics....`")
     reply_to_id = event.message.id
     if event.reply_to_msg_id:
         reply_to_id = event.reply_to_msg_id
