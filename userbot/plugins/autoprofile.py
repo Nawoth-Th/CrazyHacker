@@ -4,8 +4,8 @@ Command: `.bloom`
 Hmmmm U need to config DOWNLOAD_PFP_URL_CLOCK var in Heroku with any telegraph image link
 :::::Credit Time::::::
 1) Coded By: @s_n_a_p_s
-2) Ported By: @r4v4n4 (Noodz Lober)
-3) End Game Help By: @spechide
+2) Ported By: @r4v4n4 (Praveen Kavindu)
+3) End Game Help By: @XCRZYHACKERX7
 4) Better Colour Profile Pic By @PhycoNinja13b
 #curse: who ever edits this credit section will goto hell
 ⚠️DISCLAIMER⚠️
@@ -35,7 +35,7 @@ FONT_FILE_TO_USE = "/usr/share/fonts/truetype/liberation/LiberationMono-Regular.
 
 @borg.on(admin_cmd(pattern="autopic$"))
 async def autopic(event):
-    await event.edit(f"Autopic has been started by my Master") 
+    await event.edit(f"Autopic has been started by Crazy Hacker") 
     downloaded_file_name = "userbot/original_pic.png"
     downloader = SmartDL(Var.DOWNLOAD_PFP_URL_CLOCK, downloaded_file_name, progress_bar=False)
     downloader.start(blocking=False)
@@ -91,7 +91,7 @@ async def main(event):
         
 @borg.on(admin_cmd(pattern="bloom$"))
 async def autopic(event): 
-    await event.edit("Bloom colour profile pic have been enabled by my master") 
+    await event.edit("Bloom colour profile pic have been enabled by Crazy Hacker") 
     downloaded_file_name = "userbot/original_pic.png"
     downloader = SmartDL(Var.DOWNLOAD_PFP_URL_CLOCK, downloaded_file_name, progress_bar=True)
     downloader.start(blocking=False)
@@ -130,11 +130,11 @@ async def autopic(event):
         
 @borg.on(admin_cmd(pattern="autoname$"))  # pylint:disable=E0602
 async def _(event):
-    await event.edit(f"Auto Name has been started by my Master ") 
+    await event.edit(f"Auto Name has been started by Crazy Hacker") 
     while True:
         DM = time.strftime("%d-%m-%y")
         HM = time.strftime("%H:%M")
-        name = f"⌚️ {HM}||›  {DEFAULTUSER} ‹||📅 {DM}"
+        name = f"༺ {HM} {DEFAULTUSER} {DM} ༻"
         logger.info(name)
         try:
             await borg(functions.account.UpdateProfileRequest(  # pylint:disable=E0602
@@ -154,11 +154,11 @@ async def _(event):
 
 @borg.on(admin_cmd(pattern="autobio$"))  # pylint:disable=E0602
 async def _(event):
-    await event.edit(f"Auto bio has been started by my Master") 
+    await event.edit(f"Auto bio has been started by Crazy Hacker") 
     while True:
         DMY = time.strftime("%d.%m.%Y")
         HM = time.strftime("%H:%M:%S")
-        bio = f"📅 {DMY} | {DEFAULTUSERBIO} | ⌚️ {HM}"
+        bio = f"📅 {DMY} {DEFAULTUSERBIO} ⌚️ {HM}"
         logger.info(bio)
         try:
             await borg(functions.account.UpdateProfileRequest(  # pylint:disable=E0602
