@@ -115,7 +115,7 @@ if Var.PRIVATE_GROUP_ID is not None:
         catid = chat_id
         current_message_text = message_text.lower()
         USER_BOT_NO_WARN = (f"[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id={catid})\n\n"
-                      "This is auto generated message from cat security service\n\n"
+                      "This is auto generated message from CrazyHacker security service\n\n"
                      f"Hi buddy my master {DEFAULTUSER} haven't approved you yet. so ,"
                       "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years.\n\n"
                       "**Send** `/start` ** so that my master can decide why you're here.**")
@@ -187,7 +187,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                 USER_BOT_NO_WARN = (Config.CUSTOM_PMPERMIT_TEXT + '\n\n' + "**Send** `/start` ** so that my master can decide why you're here.**")
             else:
                 USER_BOT_NO_WARN = (f"[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id={catid})\n\n"
-                      "This is auto generated message from cat security service\n\n"
+                      "This is auto generated message from CrazyHacker service\n\n"
                      f"Hi buddy my master {DEFAULTUSER} haven't approved you yet. so ,"
                       "Leave your name,reason and 10k$ and hopefully you'll get a reply within 2 light years.\n\n"
                       "**Send** `/start` ** so that my master can decide why you're here.**")
