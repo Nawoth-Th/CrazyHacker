@@ -45,8 +45,8 @@ async def cmd_list(event):
             else:
                 await event.edit(input_str + " is not a valid plugin!")
         else:
-            help_string = f"Userbot Helper.. Provided by {DEFAULTUSER}\
-                          \nUserbot Helper to reveal all the plugin names\
+            help_string = f"Crazy Hacker BOT Provided by {DEFAULTUSER}\
+                          \nCRAZY HACKER Helper to reveal all the plugin names\
                           \n__Do__ `.help` __plugin_name for commands, in case popup doesn't appear.__\
                           \nDo `.info` plugin_name for usage"
             results = await bot.inline_query(  # pylint:disable=E0602
@@ -72,7 +72,7 @@ async def cmd_list(event):
         else:
             string = f"**Crazy Hacker Bot Provided by {DEFAULTUSER}\nCRAZY HACKER Helper to reveal all the plugin names\n\n**Do `.help` plugin_name for commands\nDo `.info` plugin_name for usage\n\n"
             for i in sorted(CMD_LIST):
-                string += "◆`" + str(i)
+                string += "☘️`" + str(i)
                 string += "`   "
             await event.edit(string)
 
@@ -91,7 +91,7 @@ async def info(event):
         string = "**Please specify which plugin do you want help for !!**\
             \n**Usage:** `.info` <plugin name>\n\n"
         for i in sorted(CMD_HELP):
-            string += "◆`" + str(i)
+            string += "☘️`" + str(i)
             string += "`   "
         await edit_or_reply(event, string)
 
