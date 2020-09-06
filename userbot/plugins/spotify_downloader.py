@@ -18,7 +18,7 @@ async def _(event):
         await event.edit("🎶**Initiating Download!**🎶")
     bot = "@DeezerMusicBot"
     
-    async with borg.conversation("@DeezerMusicBot") as conv:
+    async with borg.conversation("@DeezLoadBot") as conv:
           try:
               await conv.send_message("/start")
               response = await conv.get_response()
@@ -34,4 +34,4 @@ async def _(event):
               await borg.send_file(event.chat_id, songh, caption="🔆**Here's the requested song!**🔆")
               await event.delete()
           except YouBlockedUserError:
-              await event.edit("**Error:** `unblock` @DeezerMusicBot `and retry!`")
+              await event.edit("**Error:** `unblock` @DeezLoadBot `and retry!`")
