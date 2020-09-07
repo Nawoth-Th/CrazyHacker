@@ -26,9 +26,9 @@ async def _(event):
             await conv.send_message(d_link)
             details = await conv.get_response()
             await borg.send_message(event.chat_id, details)
-            await conv.get_response()
-            songh = await conv.get_response()
-            await borg.send_file(event.chat_id, songh, caption="🔆**Here's the requested song!**🔆")
+            res = await conv.get_response()
+            await borg.send_message(event.chat_id, res)
+            await borg.send_file(event.chat_id, await conv.get_response(), caption="🔆**Here's the requested song!**🔆")
             await event.delete()
         except YouBlockedUserError:
             await event.edit("**Error:** `unblock` @scdlbot `and retry!`")
