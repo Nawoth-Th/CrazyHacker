@@ -1,11 +1,11 @@
-""" Spotify / Deezer downloader plugin by @anubisxx | Syntax: .csc link"""
+""" Spotify / Deezer downloader plugin by @anubisxx | Syntax: .craze link"""
 import asyncio
 from telethon.errors.rpcerrorlist import YouBlockedUserError, UserAlreadyParticipantError
 from telethon.tl.functions.messages import ImportChatInviteRequest
 from userbot.utils import admin_cmd
 
 
-@borg.on(admin_cmd("csc ?(.*)"))
+@borg.on(admin_cmd("craze ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
