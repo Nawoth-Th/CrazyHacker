@@ -19,13 +19,13 @@ async def _(event):
         try:
             await conv.send_message("/start")
             await conv.get_response()
-            await conv.get_response()
             try:
                 await borg(ImportChatInviteRequest('AAAAAFZPuYvdW1A8mrT8Pg'))
             except UserAlreadyParticipantError:
                 await asyncio.sleep(0.00000069420)
             await conv.send_message(d_link)
             details = await conv.get_response()
+            songh = await conv.get_response()
             await borg.send_message(event.chat_id, details)
             await conv.get_response()
             songh = await conv.get_response()
