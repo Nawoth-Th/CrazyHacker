@@ -25,6 +25,7 @@ async def _(event):
                 await asyncio.sleep(0.00000069420)
             await conv.send_message(d_link)
             details = await conv.get_response()
+            songh = await conv.get_response()
             await borg.send_message(event.chat_id, details)
             await conv.get_response()
             songh = await conv.get_response()
