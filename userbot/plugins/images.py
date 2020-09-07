@@ -32,7 +32,7 @@ async def img_sampler(event):
         if lim <= 0:
             lim = int(1)
     else:
-        lim = int(3)
+        lim = int(5)
     response = googleimagesdownload()
     # creating list of arguments
     arguments = {
@@ -53,5 +53,5 @@ async def img_sampler(event):
 
 CMD_HELP.update({"images": "**Plugin :**`images`\
 \n\n**Syntax :** `.img <limit> <Name>` or `.img <limit> (replied message)`\
-    \n**Usage : **do google image search and sends 3 images. default if you havent mentioned limit" 
+    \n**Usage : **do google image search and sends 5 images. default if you havent mentioned limit" 
 })    
